@@ -70,7 +70,7 @@ export const authService = {
         expiresIn: number;
       };
     }>('/auth/reissue');
-
+    console.log(res.data.payload);
     return res.data.payload;
   },
 };

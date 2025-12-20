@@ -74,6 +74,7 @@ export default function SignUp() {
       alert('회원가입 성공');
     } catch (error) {
       console.log(error);
+      alert('회원가입 실패');
     }
     router.push('/');
   };
